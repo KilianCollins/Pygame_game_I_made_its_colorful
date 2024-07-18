@@ -27,7 +27,10 @@ pygame.display.set_caption("Sprite Groups")
 clock = pygame.time.Clock()
 FPS = 60
 # pygame's list of named colors: https://www.pygame.org/docs/ref/color_list.html
-colors = ["deeppink", "red", "firebrick1", "orange", "gold", "yellow", "green", "blue", "mediumblue", "indigo", "purple", "violet"]
+colors = ["deeppink", "red", "firebrick1", "orange", "gold", "yellow", "green", "darkseagreen",
+          "darkseagreen1", "darkolivegreen1", "darkolivegreen2", "darkolivegreen3", "darkolivegreen4",
+          "blue", "mediumblue", "indigo", "purple", "violet"
+          ]
 
 
 # Square sprite class below
