@@ -5,6 +5,7 @@ import game_stuff
 # screen dimensions
 SCREEN_WIDTH = 1000
 SCREEN_HEIGHT = 600
+dt =0
 
 # for finding the center point of the screen for start
 HEIGHT_Y1 = 0
@@ -25,12 +26,16 @@ pygame.display.set_caption("Sprite Groups")
 
 # frame rate, note: change to dt soon.
 clock = pygame.time.Clock()
-FPS = 60
-# pygame's list of named colors: https://www.pygame.org/docs/ref/color_list.html
+# FPS = 60
+# pwsaygame's list of named colors: https://www.pygame.org/docs/ref/color_list.html
 colors = ["deeppink", "red", "firebrick1", "orange", "gold", "yellow", "green", "darkseagreen",
           "darkseagreen1", "darkolivegreen1", "darkolivegreen2", "darkolivegreen3", "darkolivegreen4",
           "blue", "mediumblue", "indigo", "purple", "violet"
           ]
+rand_color = random.choice(colors)
+
+# turn this into a class later
+player_one = pygame.Vector2(screen.get_width() / 2, screen.get_height() / 2)
 
 
 # Square sprite class below
@@ -57,7 +62,7 @@ squares.add(square)
 run = True
 while run:
 
-    clock.tick(FPS)
+    # clock.tick()
     screen.fill("black") #how do pygame colors work in this context??
 
     # updates backgroudn
@@ -79,7 +84,25 @@ while run:
             #quit prog
         if event.type == pygame.QUIT:
             run = False
+    green = pygame.draw.circle(screen, rand_color, player_one, 40)
 
+    keys = pygame.key.get_pressed()
+    if keys[pygame.K_w]:
+        player_one.y -= 300 * dt
+    if keys[pygame.K_s]:
+        player_one.y += 300 * dt
+    if keys[pygame.K_a]:
+        player_one.x -= 300 * dt
+    if keys[pygame.K_d]:
+        player_one.x += 300 * dt
+    if keys[pygame.K_ESCAPE]:
+        pygame.quit()
+    if keys[pygame.K_SPACE]:
+        screen.fill("white")
+        green = pygame.draw.circle(screen, "red", player_one, 40)
+    if keys[pygame.K_j]:
+        screen.fill("white")
+        pygame.draw.rect(screen, "red", pygame.Rect(30, 30, 60, 60), 2)
 
 
 
@@ -88,6 +111,8 @@ while run:
     #     if event.type == pygame.QUIT:
     #         run = False
     pygame.display.flip()
+    dt = clock.tick(60) / 1000
+
 
 '''end of game loop'''
 pygame.quit()
