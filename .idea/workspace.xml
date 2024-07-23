@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17506716-5258-44a7-8740-cad5490733f0" name="Changes" comment="added more green, fixed formating of the colors list&#10;i cant keep my eues open 71724 kilian">
+    <list default="true" id="17506716-5258-44a7-8740-cad5490733f0" name="Changes" comment="I FIGUREGED OUT HOW TO MOVE PLAYER ONE LET'S GOOOOOOO. also need more plesant color palate">
+      <change afterPath="$PROJECT_DIR$/Main/Game/actual_game/camera_stuff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/Game/actual_game/movement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/Game/actual_game/my_colors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/Game/boiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/Game/fun_happy_game/game_stuff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/Game/fun_happy_game/moves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/copied examples to study/Border game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/copied examples to study/sprite trail effect(permanent) example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/copied examples to study/sprite trail effect(permanent) example_my_v.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/my new goals/Border game_with_trail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Game/game_stuff.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Game/game_stuff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Game/trial_stuff.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Game/Actual_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Game/Actual_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Game/actual_game/Actual_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Game/game_stuff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Game/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Game/actual_game/items.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +55,33 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.Actual_game.executor": "Run",
+    "Python.Border game.executor": "Run",
+    "Python.Border game_with_trail.executor": "Run",
+    "Python.boiler.executor": "Run",
     "Python.game_stuff.executor": "Run",
+    "Python.my_colors.executor": "Run",
+    "Python.sprite effects.executor": "Run",
+    "Python.sprite trail effect(permanent) example.executor": "Run",
     "Python.trial_stuff.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Internal__Alpha__1",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/kilia/PycharmProjects/lets solve a probrnm/Main/my new goals",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kilia\PycharmProjects\lets solve a probrnm\Main\my new goals" />
+      <recent name="C:\Users\kilia\PycharmProjects\lets solve a probrnm\Main\copied examples to study" />
+      <recent name="C:\Users\kilia\PycharmProjects\lets solve a probrnm\Main\Game\actual_game" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kilia\PycharmProjects\lets solve a probrnm\Main\copied examples to study" />
+      <recent name="C:\Users\kilia\PycharmProjects\lets solve a probrnm\Main\Game\fun_happy_game" />
+      <recent name="C:\Users\kilia\PycharmProjects\lets solve a probrnm\Main\Game\actual_game" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,13 +125,22 @@
       <option name="project" value="LOCAL" />
       <updated>1721278382421</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I FIGUREGED OUT HOW TO MOVE PLAYER ONE LET'S GOOOOOOO. also need more plesant color palate">
+      <option name="closed" value="true" />
+      <created>1721345427965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721345427965</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="dfhshfdthth" />
     <MESSAGE value="added more green, fixed formating of the colors list&#10;i cant keep my eues open 71724 kilian" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more green, fixed formating of the colors list&#10;i cant keep my eues open 71724 kilian" />
+    <MESSAGE value="I FIGUREGED OUT HOW TO MOVE PLAYER ONE LET'S GOOOOOOO. also need more plesant color palate" />
+    <option name="LAST_COMMIT_MESSAGE" value="I FIGUREGED OUT HOW TO MOVE PLAYER ONE LET'S GOOOOOOO. also need more plesant color palate" />
   </component>
 </project>
